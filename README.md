@@ -34,6 +34,10 @@ Este projeto é uma aplicação web simples desenvolvida em HTML, CSS e JavaScri
 
 5. **Visualize a Imagem e a Biografia** do prefeito, e clique no link fornecido para acessar mais propostas e informações.
 
+### Método online
+
+1. [Vercel](https://alura-imersaodev-gemini.vercel.app).
+
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
