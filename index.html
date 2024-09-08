@@ -1,15 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <title>Home | Minecraft Search</title>
+    <title>Home | Meu Prefeito</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/dados.js" defer></script>
+    <script src="assets/js/script.js" defer></script>
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+        <div id="header">
+            <div class="logo">
+                <img src="https://cdn-icons-png.flaticon.com/32/5344/5344453.png" alt="Brasil bandeira">
+                <h1 class="logo roboto-bold"><a href="index.html">Meu Prefeito</a></h1>
+            </div>
+            <nav id="navbar">
+                <ul class="navbar-list">
+                    <li><a href="javascript:void(0)" target="_self">Ajuda</a></li>
+                    <li><a href="javascript:void(0)" target="_self">Dicas</a></li>
+                    <li><a href="javascript:void(0)" target="_self">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <hr>
+    <main>
+        <div class="container">
+            <h1>Pesquisar por Cidade ou Prefeito</h1>
+            <div class="warning">
+                <p>
+                    Atualmente, nosso sistema está configurado para buscar informações apenas sobre os prefeitos das capitais brasileiras. Se você está procurando dados sobre prefeitos de outras cidades, infelizmente, ainda não conseguimos oferecer esse serviço. Estamos trabalhando para expandir nossas funcionalidades e esperamos poder atender a todas as cidades em breve!
+                </p>
+            </div>
+            <form>
+                <input type="text" id="mysearch" placeholder="Digite..." autofocus>
+                <button type="button" id="btt-submit" onclick="search()">Pesquisar</button>
+            </form>
+            <section id="results"></section>
+        </div>
+    </main>
+    <footer>
+        <ul class="list">
+            <li>
+                <a href="javascript:void(0)">GitHub</a>
+            </li>
+            <li>—</li>
+            <li>
+                <a href="javascript:void(0)">Stack Overflow</a>
+            </li>
+            <li>—</li>
+            <li>
+                <a href="javascript:void(0)">Linkedin</a>
+            </li>
+        </ul>
+        <p>Feito com ❤️ por <span class="name roboto-regular-italic">Matheus de Oliveira Cabral</span>.</p>
+    </footer>
 </body>
 </html>
